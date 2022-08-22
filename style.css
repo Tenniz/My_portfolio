@@ -1,12 +1,11 @@
-html,
 body {
-    background-color: darkorange;
+    background-color: #fcf9f4;
     margin: 0;
     padding: 0;
 }
 
 .top-header {
-    background-color: rgb(135, 130, 130);
+    background-color: #604d42;
 }
 
 .menu-item {
@@ -16,37 +15,52 @@ body {
     text-decoration: none;
 }
 
-.brand {
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .mian-content {
     max-width: 700px;
     margin: auto;
+    padding: 10px;
 }
 
-.box {
-    background-color: beige;
-    padding: 20px;
-    margin: 30px;
-}
+.illus-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 0px -10px;
+  }
+  
+  .box-item {
+    box-sizing: border-box;
+    width: 33.33%;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+  
+  .box-content {
+    color: #242424;
+    background-color: #d2c7bb;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+  }
 
 .image {
-    width: 100%;
+    width: 300px;
 }
 
-.button {
-    color: chocolate;
-    background-color: burlywood;
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
 
+.know-me {
+  background-color: #604d42;
+  border-radius: 1%;
+  padding: 20px;
+  margin: 20px;
 }
 
-.bottom-footer {
-    background-color: rgb(135, 130, 130);
-    padding: 20px;
-    text-align: center;
+h1 ,h3 , h4 ,ul ,li ,p {
+  color: #d2c7bb;
+
 }
