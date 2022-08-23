@@ -90,7 +90,7 @@ header {
 
 }
 
-#top p{
+#top p {
   color: #d2c7bb;
   font-family: 'Montserrat', sans-serif
 }
@@ -131,7 +131,7 @@ header {
 .know-me {
   background-color: #604d42;
   padding: 10px;
- 
+
 }
 
 h1,
@@ -142,7 +142,6 @@ li,
 p {
   color: #d2c7bb;
   font-family: 'Montserrat', sans-serif
-
 }
 
 .project h1 {
@@ -151,8 +150,8 @@ p {
   text-align: center;
 }
 
-.html-sample{
-   display: flex;
+.html-sample {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -170,16 +169,16 @@ p {
 }
 
 .social-media-container {
-	position: fixed;
-	top: 50%;
-	left: calc(100% - 60px);
-	list-style-type: none;
-	padding: 0;
-	transform: translateY(-50%);
-	min-width: 250px;
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  min-width: 250px;
 }
 
-.social-media{
+.social-media {
   align-items: center;
   display: flex;
   transition: transform .3s ease-in-out;
@@ -191,41 +190,41 @@ p {
 }
 
 .social-media.linkedin {
-	background-color: #007bb6;
+  background-color: #007bb6;
 }
 
 .social-media.github {
-	background-color: #333;
+  background-color: #333;
 }
 
 .social-media.download {
-  background-color: rgb(227, 64, 64);
+  background-color: #ff2c2c;
 }
 
 .social-media i {
-	color: #fff;
-	font-size: 20px;
-	padding: 15px;
-	text-align: center;
-	width: 60px;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 60px;
 }
 
 .social-media a {
-	color: #fff;
-	padding: 0 10px;
+  color: #fff;
+  padding: 0 10px;
 }
 
 .top {
   text-decoration: none;
   color: #d2c7bb;
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
 .top-2 {
 
   text-decoration: none;
-  color:  #604d42;
+  color: #604d42;
   font-family: 'Montserrat', sans-serif;
 
 }
