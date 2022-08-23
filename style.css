@@ -198,6 +198,10 @@ p {
 	background-color: #333;
 }
 
+.social-media.download {
+  background-color: rgb(227, 64, 64);
+}
+
 .social-media i {
 	color: #fff;
 	font-size: 20px;
